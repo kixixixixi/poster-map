@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  max-width: 100dvw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pin {
+  background-color: #69f;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  height: 0.5rem;
+  width: 0.5rem;
+  z-index: 256;
+}
